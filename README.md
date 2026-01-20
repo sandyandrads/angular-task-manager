@@ -1,27 +1,78 @@
-# Essentials
+# Angular Essentials Study Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+This repository contains a study project built while following the Udemy course:
 
-## Development server
+**Master Angular (formerly "Angular 2") – The Complete Guide**  
+https://www.udemy.com/course/the-complete-guide-to-angular-2/
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🎯 Purpose
 
-## Code scaffolding
+This project serves as a learning environment to explore Angular fundamentals and modern features introduced in Angular 16+.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+It is not intended for production use — the goal is to practice, experiment, and build foundational knowledge.
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 📚 Topics Covered
 
-## Running unit tests
+✔ **Angular Essentials**
+- Components & Templates
+- Data Binding (Interpolation, Property, Event, Two-Way)
+- Directives (`*ngIf`, `*ngFor`)
+- Services & Dependency Injection
+- Modules (feature modules & shared modules)
+- Standalone Components vs Module-based Components
+- Lifecycle & Template Interaction
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+✔ **Forms & Interaction**
+- `ngModel` (two-way binding)
+- `FormsModule`
+- `ngSubmit` event
+- Local component state
 
-## Running end-to-end tests
+✔ **Modern Angular Features (v16+)**
+- Signals (usage & limitations)
+- Standalone APIs
+- Inject function
+- Content Projection (`ng-content`)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+## 🛠️ Tech Stack
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- **Angular** 16+
+- **TypeScript**
+- **CLI scaffolding**
+- Browser localStorage (simple persistence)
+
+---
+
+## 🗂️ Project Structure
+
+```text
+src/
+ ├── app/
+ │   ├── header/
+ │   │   └── header.component.* 
+ │   ├── shared/
+ │   │   ├── card/
+ │   │   │   └── card.component.*
+ │   │   └── shared.module.ts
+ │   ├── tasks/
+ │   │   ├── new-task/
+ │   │   │   └── new-task.component.*
+ │   │   ├── task/
+ │   │   │   └── task.component.*
+ │   │   ├── tasks.component.*
+ │   │   ├── tasks.module.ts
+ │   │   └── tasks.service.ts
+ │   ├── user/
+ │   │   └── user.component.*
+ │   ├── app.component.*
+ │   ├── app.module.ts
+ │   └── dummy-users.ts
+ ├── assets/
+ │   └── users/
+ ├── main.ts
+ ├── styles.css
+ └── index.html
