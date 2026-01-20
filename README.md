@@ -5,6 +5,11 @@ This repository contains a study project built while following the Udemy course:
 **Master Angular (formerly "Angular 2") – The Complete Guide**  
 https://www.udemy.com/course/the-complete-guide-to-angular-2/
 
+## 🎬 Demo
+
+![Demo do projeto](./src/assets/demo.gif)
+
+
 ## 🎯 Purpose
 
 This project serves as a learning environment to explore Angular fundamentals and modern features introduced in Angular 16+.
